@@ -44,6 +44,9 @@ dependencies {
     annotationProcessor("org.mapstruct:mapstruct-processor:1.5.3.Final")
     implementation("com.vonage:client:7.3.0")
     implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:2.0.2")
+    implementation("org.springframework.boot:spring-boot-starter-mail")
+    implementation("com.vonage:client:7.5.0")
+    implementation("org.telegram:telegrambots:5.3.0")
 
     /**
      * Test containers
